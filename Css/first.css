@@ -1,0 +1,27 @@
+h3 {
+    background-color: green;
+    color: brown;
+}
+h4 {
+    color: blueviolet;
+    background-color: aquamarine;
+    font-size: 35px;
+    }
+/* id name */
+#txt {
+    color: rgb(110, 110, 110);
+    background-color: yellow;
+    height: 50px;
+    width: 200px;
+    }
+/* class name */
+.box {
+    height: 300px;
+    width: 400px;
+    background-color: chocolate;
+    /* border-width: 2px;
+    border-color: black;
+    border-style: solid; */
+    border: 15px double black;
+    /* display: block; */
+    }
