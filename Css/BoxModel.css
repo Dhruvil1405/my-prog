@@ -1,0 +1,22 @@
+.box {
+    height: 100px;
+    width: 200px;
+    /* single value -- T R B L */
+    /* padding: 10px; */
+    /* 2 value -- TB LR */
+    /* padding: 10px 5px */
+    /* 3 values -- T R B L */
+    /* padding: 10px 5px 7px --  L- same as a right */
+    /* 4 values: T R B L */
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+
+}
+.lr {
+    float: right;
+}
+.ret {
+    clear: both;
+}
