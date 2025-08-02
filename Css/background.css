@@ -1,0 +1,31 @@
+.dec {
+    
+    background-image: url('OceanTops.jpeg');
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-position: 50% 30%; */
+    /* auto content cover */
+    background-size: contain;
+    /* for image stretch */
+    /* background-size: cover; */
+    /* background-attachment: scrolldefault; */
+    background-attachment: fixed;
+    margin: 20px;
+    
+}
+
+.at {
+    height: 200px;
+    width: 80%;
+    /* background: linear-gradient(); */
+    background: linear-gradient(90deg, #2a7b9b, #57c785 50%, #eddd53);
+    /* background: radial-gradient(); */
+    color: brown;
+    border: 20px dashed purple;
+    padding: 20px;
+    /* border-box, padding-box */
+    background-clip: content-box;
+}
