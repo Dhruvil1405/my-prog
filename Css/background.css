@@ -7,10 +7,9 @@
     background-repeat: no-repeat;
     /* background-position: center; */
     /* background-position: 50% 30%; */
-    /* auto content cover */
+    /* bg size - auto content cover contain*/
     background-size: contain;
     /* for image stretch */
-    /* background-size: cover; */
     /* background-attachment: scrolldefault; */
     background-attachment: fixed;
     margin: 20px;
@@ -21,8 +20,8 @@
     height: 200px;
     width: 80%;
     /* background: linear-gradient(); */
-    background: linear-gradient(90deg, #2a7b9b, #57c785 50%, #eddd53);
     /* background: radial-gradient(); */
+    background: linear-gradient(90deg, #2a7b9b, #57c785 50%, #eddd53);
     color: brown;
     border: 20px dashed purple;
     padding: 20px;

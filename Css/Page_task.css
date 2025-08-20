@@ -1,0 +1,79 @@
+.div {
+
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background: #3ab498;
+    background: linear-gradient(335deg, rgba(58, 180, 152, 1) 17%, rgba(122, 29, 253, 1) 42%, rgba(252, 176, 69, 1) 90%);
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.row {
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    line-height: 20px;
+}
+
+.col1,
+.col2,
+.col3 {
+    float: left;
+    width: 485px;
+    height: auto;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 11px;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.rad:hover {
+    background: #3ab498;
+    background: linear-gradient(33deg, rgba(58, 180, 152, 1) 0%, rgba(253, 29, 29, 1) 69%, rgba(252, 176, 69, 1) 100%);
+    color: black;
+}
+
+.img1 {
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-3-1536x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img2 {
+    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.img3 {
+    background-image: url(https://depositphotos-blog.s3.eu-west-1.amazonaws.com/uploads/2017/07/Soothing-nature-backgrounds-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+

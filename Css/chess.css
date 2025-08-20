@@ -1,0 +1,31 @@
+.chessboard {
+    height: 640px;
+    width: 640px;
+    border: 2px solid black;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.white {
+    background: rgb(252, 236, 214);
+}
+
+.black {
+    background: rgb(165, 42, 42);
+}
+
+.fa-solid {
+    font-size: 50px;
+    height: 61px;
+    width: 50px;
+    color: black;
+    padding: 9px;
+}
+
+.light {
+    color: white;
+}

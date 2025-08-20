@@ -1,0 +1,34 @@
+.main {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row no-wrap;/* shortcut */
+    /* justify-content: space-between;
+    align-items: baseline; */
+    align-content: baseline;/* combination */
+    gap: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+}
+
+.b1 {
+    order: 1;
+    align-self: center;
+    flex-grow: 0.5;
+}
+
+.b2 {
+    order: 3;
+}
+.b4 {
+    order: 2;
+    align-self: flex-end;
+}
