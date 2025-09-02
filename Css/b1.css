@@ -1,5 +1,8 @@
-.ab {
-    height: 300px;
-    width: 300px;
+.box {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-image: url('OceanTops.jpeg');
+    background-attachment: fixed;
+    background-size: contain;
 }
-

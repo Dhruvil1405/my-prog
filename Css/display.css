@@ -14,10 +14,3 @@
     background-color: goldenrod;
     padding: 15px;
 }
-
-#txt {
-    height: 40px;
-    width: 80px;
-    border: 3px dotted greenyellow;
-    display: inline-block;
-}

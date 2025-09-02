@@ -1,29 +1,36 @@
 .main {
     height: 100px;
     background-color: aqua;
-    color: blue;
-    border: 2px solid black;
 }
 
 .logo {
-    height: 60px;
-    width: 100px;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 20px;
-    justify-content: center;
-    /* border: 2px solid black; */
-    display: inline-block;
+    height: 100%;
+    width: 30%;
     float: left;
+    display: inline-block;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 .manu {
-    height: 60px;
-    width: 1350px;
+    height: 100%;
+    width: 70%;
     display: flex;
-    justify-content: end;
-    gap: 30px;
-    margin-top: 20px;
-    padding: 0 10px 0 10px;
-    /* border: 2px solid black; */
+    justify-content: flex-end;
+    align-content: center;
+}
+
+h4 {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul {
+    align-content: center;
+    margin: 30px;
 }
