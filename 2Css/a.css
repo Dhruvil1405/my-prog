@@ -1,0 +1,28 @@
+a {
+    text-decoration: underline dashed green;
+
+}
+
+a:link {
+    color: red
+}
+
+a:visited {
+    color: goldenrod;
+    text-decoration: underline double darkcyan;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+.vb {
+    /* display: none; */
+    visibility: hidden;
+}
+
+li {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    list-style-image: url('hero-img-1.png');
+}
