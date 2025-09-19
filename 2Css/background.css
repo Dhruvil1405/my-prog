@@ -7,10 +7,10 @@
     background-repeat: no-repeat;
     /* background-position: center; */
     /* background-position: 50% 30%; */
-    /* bg size - auto content cover contain*/
+    /* bg size - auto cover contain*/
     background-size: contain;
     /* for image stretch */
-    /* background-attachment: scrolldefault; */
+    /* background-attachment: scroll(default); */
     background-attachment: fixed;
     margin: 20px;
     

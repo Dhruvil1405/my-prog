@@ -6,7 +6,6 @@
 
 body {
     background: #d4edda;
-
 }
 
 header {
@@ -56,7 +55,6 @@ hr {
 .time {
     font-size: 10px;
     color: gray;
-    /* margin-top: 2px; */
     text-decoration: overline dotted gray ;
 }
 

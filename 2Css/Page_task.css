@@ -57,23 +57,22 @@ h3 {
 }
 
 .img1 {
-    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-3-1536x1024.jpg);
+    background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-3-1536x1024.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .img2 {
-    background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-8.jpg);
+    background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
 }
 
 .img3 {
-    background-image: url(https://depositphotos-blog.s3.eu-west-1.amazonaws.com/uploads/2017/07/Soothing-nature-backgrounds-2.webp);
+    background-image: url("https://depositphotos-blog.s3.eu-west-1.amazonaws.com/uploads/2017/07/Soothing-nature-backgrounds-2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-

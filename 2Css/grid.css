@@ -1,0 +1,19 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px auto;
+    /* column-gap: 10px;
+       row-gap: 15px; */
+    border: 1px solid gold;
+    /* grid-column-start: 2; 
+       grid-column-end: 4; */
+}
+
+.box {
+    border: 1px solid black
+}
+
+.b1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
