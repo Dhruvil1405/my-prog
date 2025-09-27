@@ -1,17 +1,14 @@
 * {
     margin: 0px;
 }
-
 .header {
     height: 60px;
     background-color: rgb(34, 34, 34);
 }
-
 header {
     width: 100%;
     position: fixed;
 }
-
 .logo {
     height: 100%;
     width: 6%;
@@ -22,7 +19,6 @@ header {
     align-items: center;
     color: rgb(255, 73, 73);
 }
-
 .heading {
     height: 100%;
     width: 30%;
@@ -31,7 +27,6 @@ header {
     color: rgb(255, 212, 212);
     float: left;
 }
-
 .log {
     height: 100%;
     width: 64%;
@@ -39,7 +34,6 @@ header {
     justify-content: right;
     align-items: center;
 }
-
 #search {
     height: 50%;
     width: 75%;
@@ -47,38 +41,33 @@ header {
     justify-content: flex-end;
     margin: 20px;
 }
-
 #src {
     border-radius: 10px;
     padding: 5px 20px;
 }
-
 #login {
     border-radius: 10px;
     padding: 5px 15px;
     margin: 0 10px;
     background-color: rgb(197, 197, 197);
 }
-
 #login:hover {
     transform: scale(1.1);
     transition-duration: 0.3s;
 }
-
 hr {
     border: 2px solid rgb(76, 76, 76);
 }
 
 
 .manu {
-    height: 29px;
+    height: 30px;
     width: 100%;
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
     padding: 5px 0;
 }
-
 #manu {
     color: rgb(255, 118, 118);
     text-decoration-line: none;
@@ -90,18 +79,15 @@ hr {
     background-color: rgba(50, 50, 50, 0);
     border-radius: 5px;
 }
-
 #manu:hover {
     color: rgb(210, 200, 193);
     transform: scale(1.1);
     transition-duration: 0.3s;
 }
-
 #manu:active,
 #login:active {
     background-color: rgb(255, 77, 77);
 }
-
 .main {
     height: 900px;
     background-image: url("../30Galary/webpage-background-color.jpg");
@@ -113,7 +99,6 @@ footer {
     height: 350px;
     background-color: rgb(32, 32, 32);
 }
-
 .footer1 {
     height: 220px;
     display: grid;
@@ -122,43 +107,33 @@ footer {
     padding: 15px;
     justify-items: center;
 }
-
 .footer2 {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 h3 {
     color: rgb(114, 114, 114);
 }
-
-.f1,
-.f2,
-.f3,
-.f4 {
+.f1, .f2, .f3, .f4 {
     color: rgb(210, 210, 210);
     text-decoration: none;
     display: block;
     padding-top: 5px;
 }
-
 .f1:hover,
 .f2:hover,
 .f3:hover,
 .f4:hover {
     color: rgb(54, 178, 255);
-    box-shadow: 0 0 4px rgb(255, 255, 255, 0.3);
 }
-
 .f1:active,
 .f2:active,
 .f3:active,
 .f4:active {
     color: rgb(255, 112, 112);
 }
-
 .foot1,
 .foot2,
 .foot3,
@@ -166,7 +141,6 @@ h3 {
     padding: 20px 50px;
     margin: 15px 0;
 }
-
 .foot1:hover,
 .foot2:hover,
 .foot3:hover,
@@ -177,15 +151,13 @@ h3 {
     transition-duration: 0.3s;
     box-shadow: 0 0 20px rgb(255, 255, 255, 0.1);
 }
-
-.fa-brands {
+.foot5 i {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     margin: 12px;
     opacity: 0.6;
 }
-
-.fa-brands:hover {
+.foot5 i:hover {
     transform: scale(1.1);
     transition-duration: 0.3s;
     opacity: 1;
@@ -197,7 +169,7 @@ h3 {
         margin-left: 10px;
     }
     .heading {
-        width: 64%;
+        width: 44%;
         float: none;
         font-size: 12px;
         margin-left: 50px;
@@ -206,8 +178,26 @@ h3 {
         width: 100%;
         background-color: rgb(34, 34, 34);
     }
+    #src{
+        padding: 5px 15px;
+    }
+    #login{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
     .manu {
-        display: none;
+        height: 80px;
+    }
+    #manu{
+        margin: 30px 0 10px;
+        padding: 20px 20px 0;
+        font-size: 18px;
+    }
+    #manu:hover{
+        transform: scale(1.05);
+    }
+    #manu:active{
+        background: none;
     }
     footer {
         height: 570px;
@@ -220,7 +210,7 @@ h3 {
         padding: 15px;
         justify-items: center;
     }
-    .fa-brands {
+    .foot5 i {
         font-size: 25px;
         margin: 8px;
     }
