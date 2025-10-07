@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h2>Event Listener Example</h2>
+    <div id="demo"></div>
+    <script>
+        let btn = document.createElement('button')
+        let txt = document.createTextNode("add Data")
+        btn.appendChild(txt)
+        document.getElementById("demo").append(btn)
+        btn.addEventListener("click",function(){
+            alert("hello...")
+        })
+        let ultag = document.createElement('ul')
+        let litag = document.createElement('li')
+        let litag2 = document.createElement('li')
+        document.getElementById('demo').append(ultag)
+        ultag.appendChild(litag);
+        ultag.appendChild(litag2);
+        let txt2 = document.createTextNode("Abcd")
+        litag.append(txt2)
+        litag2.append("xyz")
+        //<ul>
+        //    <li>Abcd</li>
+        //    <li>xyz</li>
+        //</ul>
+        
+    </script>
+</body>
+</html>
