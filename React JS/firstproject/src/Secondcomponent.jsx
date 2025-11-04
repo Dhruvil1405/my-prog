@@ -1,13 +1,13 @@
 // shortcut trics for direct generate basic code using = rfc-for function , rafc - fro arrow function
 
 import styled from "styled-components";
+import abc from './mystyle.module.css'
 
 // const Secondcomponent = (props)=>{
     //immutable - props(do not change)
 const Secondcomponent = ({myname,myage,sal})=>{
     let H4 = styled.h4 `
-        color:red;
-        background-color:green;
+        background-color:pink;
     `
     return (
         <>
@@ -16,6 +16,7 @@ const Secondcomponent = ({myname,myage,sal})=>{
             <h4>Name is -- {myname}</h4>
             <h4>Age is -- {myage}</h4>
             {/* <h4>Salary is -- {sal}</h4> */}
+            <div className={abc.box}></div>
             <H4>Salary is -- {sal}</H4>
             {/* <h4>Name is -- {props.myname}</h4>
             <h4>Age is -- {props.myage}</h4>

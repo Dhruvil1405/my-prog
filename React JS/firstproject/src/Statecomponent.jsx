@@ -4,8 +4,8 @@ const Statecomponent = () => {
     const [name,setName] = useState('Abcd')
     const [count,setCount] = useState(24)
     let newName = ()=> {
-        setName('Dhruvil')
-        // setName(prompt())
+        // setName('Dhruvil')
+        setName(prompt())
     }
     return (
         <div>
