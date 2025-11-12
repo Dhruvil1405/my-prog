@@ -9,16 +9,16 @@ import BootstrapExample from './BootstrapExample';
 import MaterialExample from './MaterialExample';
 
 function App() {
-  // const name = 'abc'
-  // let age = 25
-  // let salary = 45000
+  const name = 'abc'
+  let age = 25
+  let salary = 45000
   return (
     <>
     {/* <Firstcomponent /> */}
     {/* <Secondcomponent myname={name} myage={age} sal={salary} /> */}
     {/* <Statecomponent />   */}
-    <Revision />
-    {/* <Styledcomponent /> */}
+    {/* <Revision /> */}
+    <Styledcomponent />
     {/* <BootstrapExample /> */}
     {/* <MaterialExample /> */}
     </>

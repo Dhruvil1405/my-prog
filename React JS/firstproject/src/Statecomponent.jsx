@@ -1,5 +1,7 @@
 import {useState} from 'react';
-//
+//State - mutable (can change it)
+//7 hooks
+//1)useState
 const Statecomponent = () => {
     const [name,setName] = useState('Abcd')
     const [count,setCount] = useState(24)

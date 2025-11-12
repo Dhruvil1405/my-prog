@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Styledcomponent = (props) => {
+const Styledcomponent = () => {
 
     let H2 = styled.h2 `
     display:flex;
@@ -36,6 +36,7 @@ const Styledcomponent = (props) => {
                     <Button style={{marginLeft: '10px'}}>Secondary</Button>
                 </Div>
             </card>
+            <hr />
         </div>
         </>
     )

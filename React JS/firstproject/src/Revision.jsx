@@ -30,6 +30,7 @@ const BootstrapExample = () => {
             <Form.Group className="mb-3">
                 <Form.Check type="checkbox" label="Can't check this" disabled />
             </Form.Group>
+            <hr />
         </div>
     )
 }

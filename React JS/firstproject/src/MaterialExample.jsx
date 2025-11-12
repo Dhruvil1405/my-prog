@@ -14,6 +14,7 @@ const MaterialExample = () => {
             <Button1 as="a" variant="primary">
                 Button as link
             </Button1>
+            <hr />
         </div>
     )
 }
