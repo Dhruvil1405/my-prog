@@ -64,41 +64,19 @@ const UsercomponentOne = () => {
             <Form name="frm" method="post" action="#" onSubmit={saveData}>
               <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Label>Username</Form.Label>
-                <Form.Control
-                  type="text"
-                  placeholder="Enter name"
-                  name="name"
-                  onChange={(e) => setName(e.target.value)}
-                  value={name}
-                />
+                <Form.Control type="text"placeholder="Enter name"name="name"onChange={(e) => setName(e.target.value)}value={name}/>
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupPassword">
                 <Form.Label>Age</Form.Label>
-                <Form.Control
-                  type="number"
-                  placeholder="Age"
-                  name="age"
-                  onChange={handleAge}
-                  value={age}
-                />
+                <Form.Control type="number"placeholder="Age"name="age"onChange={handleAge}value={age}/>
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupsal">
                 <Form.Label>Salary</Form.Label>
-                <Form.Control
-                  type="number"
-                  placeholder="Salary"
-                  name="salary"
-                  onChange={(e) => setSalary(e.target.value)}
-                  value={salary}
-                />
+                <Form.Control type="number"placeholder="Salary"name="salary"onChange={(e) => setSalary(e.target.value)}value={salary}/>
               </Form.Group>
 
-              <Button variant="primary" type="submit">
-                Save
-              </Button>
-              <Button variant="danger" type="reset">
-                Cancel
-              </Button>
+              <Button variant="primary" type="submit">Save</Button>
+              <Button variant="danger" type="reset">Cancel</Button>
             </Form>
           </Col>
           <Col>
@@ -121,20 +99,8 @@ const UsercomponentOne = () => {
                       <td>{i.age}</td>
                       <td>{i.salary}</td>
                       <td>
-                        <Button
-                          variant="primary"
-                          type="button"
-                          onClick={() => editData(index)}
-                        >
-                          Edit
-                        </Button>
-                        <Button
-                          variant="danger"
-                          type="button"
-                          onClick={() => delData(index)}
-                        >
-                          Delete
-                        </Button>
+                        <Button variant="primary" type="button" onClick={() => editData(index)}>Edit</Button>
+                        <Button variant="danger" type="button" onClick={() => delData(index)}>Delete</Button>
                       </td>
                     </tr>
                   );

@@ -65,7 +65,7 @@ const Usercomponent = () => {
           <Col>
             <Form name="frm" method="post" action="#" onSubmit={saveData} >
               <Form.Group className="mb-3" controlId="formGroupEmail">
-                <Form.Label>Username</Form.Label>34e3e
+                <Form.Label>Username</Form.Label>
                 <Form.Control type="text" placeholder="Enter name" name="name" onChange={(e) => setName(e.target.value)} value={name} />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupPassword">

@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
 // const PropExample = ({myname="Dhruvil", myage="20"}) => {
 const PropExample = (props) => {
@@ -10,6 +12,10 @@ const PropExample = (props) => {
     </div>
 
   )
+}
+PropExample.propTypes = {
+  myname :PropTypes.string.isRequired,
+  myage :PropTypes.number.isRequired
 }
 
 // Only work in Class Componemt, not in Function
